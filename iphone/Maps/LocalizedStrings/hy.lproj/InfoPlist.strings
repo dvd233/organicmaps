@@ -17,6 +17,13 @@
 "report_a_bug" = "Հայտնել սխալի մասին";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Երթուղի";
+
+
 /********** gps strings **********/
 
 

@@ -17,6 +17,13 @@
 "report_a_bug" = "Пријавите проблем";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Путања";
+
+
 /********** gps strings **********/
 
 

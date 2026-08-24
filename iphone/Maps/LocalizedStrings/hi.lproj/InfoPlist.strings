@@ -17,6 +17,13 @@
 "report_a_bug" = "एक बग रिपोर्ट करो";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "रास्ता";
+
+
 /********** gps strings **********/
 
 

@@ -17,6 +17,13 @@
 "report_a_bug" = "Errore baten berri eman";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Ibilbidea";
+
+
 /********** gps strings **********/
 
 

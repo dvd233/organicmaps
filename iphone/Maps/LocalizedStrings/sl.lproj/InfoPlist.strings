@@ -17,6 +17,13 @@
 "report_a_bug" = "Prijavi napako";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Pot";
+
+
 /********** gps strings **********/
 
 

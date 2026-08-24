@@ -17,6 +17,13 @@
 "report_a_bug" = "דווח על באג";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "נתיב";
+
+
 /********** gps strings **********/
 
 

@@ -17,6 +17,13 @@
 "report_a_bug" = "Tilkynna um villu";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Leið";
+
+
 /********** gps strings **********/
 
 

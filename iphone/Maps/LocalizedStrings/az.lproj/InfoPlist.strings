@@ -17,6 +17,13 @@
 "report_a_bug" = "Problemi bildirin";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Marşrut";
+
+
 /********** gps strings **********/
 
 

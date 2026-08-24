@@ -17,6 +17,13 @@
 "report_a_bug" = "App-Fehler melden";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Route";
+
+
 /********** gps strings **********/
 
 

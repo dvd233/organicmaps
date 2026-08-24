@@ -17,6 +17,13 @@
 "report_a_bug" = "Teata veast";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Marsruut";
+
+
 /********** gps strings **********/
 
 

@@ -17,6 +17,13 @@
 "report_a_bug" = "Raporto një problem";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Rruga";
+
+
 /********** gps strings **********/
 
 

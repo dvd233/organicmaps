@@ -17,6 +17,13 @@
 "report_a_bug" = "報告問題";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "路線";
+
+
 /********** gps strings **********/
 
 

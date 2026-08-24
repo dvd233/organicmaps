@@ -17,6 +17,13 @@
 "report_a_bug" = "Ilmoita virheestä";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Reitti";
+
+
 /********** gps strings **********/
 
 

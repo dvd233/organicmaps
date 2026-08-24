@@ -17,6 +17,13 @@
 "report_a_bug" = "Ripoti hitilafu";
 
 
+/********** 3d touch strings **********/
+
+
+/* Used in home screen quick actions. */
+"route" = "Njia";
+
+
 /********** gps strings **********/
 
 

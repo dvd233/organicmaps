@@ -44,7 +44,9 @@ _IOS_NS_RE = re.compile(r'\bNSLocalizedString\(\s*@?"(\w+)"')
 _IOS_XML_RE = re.compile(r'\bvalue="(\w+)"')
 # iOS Info.plist declares system keys (NSLocation*, CFBundle*): <key>Key</key>.
 # Their localized values are generated into InfoPlist.strings from the Twine file.
-_IOS_PLIST_RE = re.compile(r'<key>(\w+)</key>')
+_IOS_PLIST_KEY_RE = re.compile(r'<key>(\w+)</key>')
+# OMaps.plist defines shortcuts in format <key>UIApplicationShortcutItemTitle</key><string>route</string>
+_IOS_PLIST_TITLE_RE = re.compile(r'<key>UIApplicationShortcutItemTitle</key>\s*<string>(\w+)</string>')
 
 
 def _regex_matcher(*regexes):
@@ -75,7 +77,7 @@ _SCANNERS = {
     "ios": [
         (("*.swift", "*.m", "*.mm", "*.h"), _ios_source_matcher),
         (("*.xib", "*.storyboard"), _regex_matcher(_IOS_XML_RE)),
-        (("*.plist",), _regex_matcher(_IOS_PLIST_RE)),
+        (("*.plist",), _regex_matcher(_IOS_PLIST_KEY_RE, _IOS_PLIST_TITLE_RE)),
     ],
 }
 

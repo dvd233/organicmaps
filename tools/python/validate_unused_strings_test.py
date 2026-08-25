@@ -84,8 +84,12 @@ class AndroidMatcherTest(unittest.TestCase):
 
 class PlistAndXibMatcherTest(unittest.TestCase):
     def test_plist_key(self):
-        m = v._regex_matcher(v._IOS_PLIST_RE)
+        m = v._regex_matcher(v._IOS_PLIST_KEY_RE)
         self.assertEqual(m("<key>NSLocationWhenInUseUsageDescription</key>"), {"NSLocationWhenInUseUsageDescription"})
+
+    def test_plist_title_value(self):
+        m = v._regex_matcher(v._IOS_PLIST_TITLE_RE)
+        self.assertEqual(m("<key>UIApplicationShortcutItemTitle</key>\n<string>route</string>"), {"route"})
 
     def test_xib_value(self):
         m = v._regex_matcher(v._IOS_XML_RE)

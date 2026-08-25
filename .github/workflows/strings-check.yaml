@@ -10,6 +10,9 @@ on:
       - libs/**
       - android/**
       - iphone/**
+      - tools/python/validate_unused_strings*.py
+      - tools/python/strings_unused_allowlist.txt
+      - tools/unix/strings_validate_*.sh
 
 jobs:
   validate-translation-strings:
